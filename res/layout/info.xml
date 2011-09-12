@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+	<TextView android:text="Battery Level" android:id="@+id/textView_level"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="Battery Health" android:id="@+id/textView_health"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="Battery Voltage" android:id="@+id/textView_voltage"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="Battery Status" android:id="@+id/textView_status"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="Battery Temperature" android:id="@+id/textView_temperature"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:text="Battery Type" android:id="@+id/textView_type"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
